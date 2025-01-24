@@ -163,5 +163,7 @@
     box-sizing: content-box;
     padding: 0;
   }
- 
+ .carousel-controls{
+  display: none;
+ }
 }

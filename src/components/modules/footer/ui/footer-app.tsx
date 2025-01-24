@@ -1,29 +1,23 @@
-
+import React, { useState, useEffect } from 'react';
 import Carousel from './slider';
-import '../style/footer.css'
-import { useState, useEffect } from 'react';
+import '../style/footer.css';
 
 const Footer: React.FC = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [isMobile, setIsMobile] = useState(false);
-    const [but, setBut] = useState(false)
+    const [but, setBut] = useState(window.innerWidth <= 768);
 
-    const num = but ? 6 : 4
+    const num = but ? 6 : 4;
 
     const goToNextSlide = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % num);
-    }
+    };
 
     const goToPrevSlide = () => {
         setCurrentIndex((prevIndex) => (prevIndex - 1 + num) % num);
     };
 
-
-
     const checkScreenSizes = () => {
-        setIsMobile(window.innerWidth <= 375);
         setBut(window.innerWidth <= 768);
-
     };
 
     useEffect(() => {
@@ -41,7 +35,7 @@ const Footer: React.FC = () => {
                             <h1>особенности работы</h1>
                             <h3>компании Saffari Estate</h3>
                         </div>
-                        {!isMobile && <div className="carousel-controls">
+                        <div className="carousel-controls">
                             <button
                                 className="carousel__button prev"
                                 onClick={goToPrevSlide}
@@ -54,13 +48,11 @@ const Footer: React.FC = () => {
                             >
                                 <img src="image/layer 1.png" alt="Вперед" />
                             </button>
-                        </div>}
-
+                        </div>
                     </div>
                     <div className="carousel-wrapper">
                         <Carousel currentIndex={currentIndex} onNext={goToNextSlide} onPrev={goToPrevSlide} />
                     </div>
-
                 </div>
             </div>
         </footer>
