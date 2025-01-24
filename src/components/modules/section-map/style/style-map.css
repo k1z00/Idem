@@ -135,4 +135,7 @@
   .map__container.margin-items {
     margin-left: 0px !important;
   }
+.map__items_side {
+  margin-left: 14px !important;
+}
 }

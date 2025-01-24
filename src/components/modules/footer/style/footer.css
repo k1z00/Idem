@@ -133,7 +133,7 @@
   }
   .footer_items {
     overflow: hidden;
-    margin-left: 40px !important;
+    margin-left: 40px ;
   }
 
   .carousel__slides {
@@ -166,4 +166,7 @@
  .carousel-controls{
   display: none;
  }
+ .footer_items {
+    margin-left: 14px !important ;
+  }
 }
