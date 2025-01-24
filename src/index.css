@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Baron Neue";
+  src: url("/Font/baronneue/Baron-Neue-Black.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.root {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+.main {
+  width: 100%;
+}
+
+.container-width {
+  max-width: 1440px;
+}
+
+.margin-items {
+  margin-top: 80px;
+  margin-left: 120px;
+}
+
+
+
+@media (max-width: 768px) {
+  .main {
+    width: 100% !important;
+  }
+
+  .margin-items {
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+}
+
+
+
+
+@media (max-width: 375px) {
+.margin-items {
+    margin-left: 14px !important;
+  }
+}
