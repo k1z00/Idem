@@ -170,7 +170,7 @@
   height: 560px !important;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .section__info {
     height: 1441px;
     margin: auto;

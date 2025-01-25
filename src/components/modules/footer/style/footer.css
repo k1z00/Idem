@@ -126,14 +126,14 @@
   position: relative;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .footer {
     height: 526px;
     max-width: 768px;
   }
   .footer_items {
     overflow: hidden;
-    margin-left: 40px ;
+    margin-left: 40px !important ;
   }
 
   .carousel__slides {
@@ -163,10 +163,10 @@
     box-sizing: content-box;
     padding: 0;
   }
- .carousel-controls{
-  display: none;
- }
- .footer_items {
+  .carousel-controls {
+    display: none;
+  }
+  .footer_items {
     margin-left: 14px !important ;
   }
 }

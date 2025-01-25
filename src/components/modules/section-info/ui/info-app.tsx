@@ -18,7 +18,7 @@ const InfoApp: React.FC = () => {
                             Knightsbridge private park – элитный район Лондона в центре
                         </h1>
                     </div>
-                  <Stats />
+                    <Stats />
                 </div>
                 <div className="section__images">
                     <ImagesInfo />

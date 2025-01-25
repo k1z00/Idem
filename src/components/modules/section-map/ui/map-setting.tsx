@@ -19,7 +19,7 @@ const MapSetting: React.FC<YandexMapProps> = ({ center, zoom, markers }) => {
             console.error('Yandex Maps API не загружен');
             return;
         }
-     window.ymaps.ready(() => {
+        window.ymaps.ready(() => {
             if (!mapRef.current) return;
             const map = new window.ymaps.Map(mapRef.current, {
                 center: center,

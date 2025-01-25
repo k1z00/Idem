@@ -2,9 +2,9 @@ import React from 'react';
 
 
 interface CarouselProps {
-    currentIndex: number; 
-    onNext: () => void; 
-    onPrev: () => void; 
+    currentIndex: number;
+    onNext: () => void;
+    onPrev: () => void;
 }
 
 const Carousel: React.FC<CarouselProps> = ({ currentIndex }) => {

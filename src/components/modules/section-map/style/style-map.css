@@ -71,7 +71,7 @@
   height: 450px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .footer_items {
     margin-top: 60px !important;
   }
@@ -135,7 +135,7 @@
   .map__container.margin-items {
     margin-left: 0px !important;
   }
-.map__items_side {
-  margin-left: 14px !important;
-}
+  .map__items_side {
+    margin-left: 14px !important;
+  }
 }

@@ -56,8 +56,8 @@ const Map: React.FC = () => {
 
         <MapSetting
             markers={markers}
-            center={[54.3141, 48.4032]} // Центр карты (Москва)
-            zoom={12} // Уровень масштабирования
+            center={[54.3141, 48.4032]} 
+            zoom={12} 
         />
 
     );
