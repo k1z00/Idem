@@ -110,7 +110,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 510px) {
   .side_ul {
     display: flex;
     flex-wrap: wrap;

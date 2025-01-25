@@ -157,7 +157,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 510px) {
   .carousel__slide {
     flex: 0 0 50% !important;
     box-sizing: content-box;

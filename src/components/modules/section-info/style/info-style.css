@@ -230,7 +230,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 510px) {
   .section_infos {
     display: block;
     height: 480px;
